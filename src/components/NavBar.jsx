@@ -13,8 +13,14 @@ const NavBar = ()=>{
                 <li>
                     <a className={`text-white text-xl max-sm:text-sm hover:text-yellow-400 duration-200`} href="#">Home</a>
                 </li>
-                <li>
+                <li className="relative group">
                     <a className={`text-white text-xl max-sm:text-sm hover:text-yellow-400 duration-200`} href="#services">Services</a>
+                    <ul className={`absolute top-full right-0 w-56 h-48 bg-blue-600 py-5 px-3 rounded duration-300 hidden group-hover:block max-xsm:left-full`}>
+                        <li className="text-xs my-2 text-white cursor-pointer bg-blue-500 p-2 hover:text-black">Web Development</li>
+                        <li className="text-xs my-2 text-white cursor-pointer bg-blue-500 p-2 hover:text-black">Mobile Development</li>
+                        <li className="text-xs my-2 text-white cursor-pointer bg-blue-500 p-2 hover:text-black">SEO Services</li>
+                        <li className="text-xs my-2 text-white cursor-pointer bg-blue-500 p-2 hover:text-black">Digital</li>
+                    </ul>
                 </li>
                 <li>
                     <a className={`text-white text-xl max-sm:text-sm hover:text-yellow-400 duration-200`} href="#about">About</a>
