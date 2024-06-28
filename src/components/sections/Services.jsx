@@ -5,6 +5,7 @@ import Digital from "../../assets/pictures/digital.png"
 
 import ServiceCard from "../ServiceCard"
 import SectionTitle from "../SectionTitle"
+import PricingCategories from "../PricingCategories"
 
 
 const Services = () => {
@@ -44,6 +45,7 @@ const Services = () => {
                     ))
                 }
             </div>
+            <PricingCategories/>
         </div>
     )
 }

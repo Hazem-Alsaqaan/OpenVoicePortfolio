@@ -1,5 +1,6 @@
 
 import './App.css'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Landing from './components/Landing'
 import About from './components/sections/About'
@@ -16,9 +17,7 @@ function App() {
         <Services/>
         <About/>
         <ContactUs/>
-        <div className='h-96 w-full'>
-          <h6>pic</h6>
-        </div>
+        <Footer/>
       </div>
     </>
   )
