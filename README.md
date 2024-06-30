@@ -15,9 +15,9 @@
 * footer and navbar section have been optimized for all screens
 * sections cantain a hover menu
    
-## Core Technologies used** 
+## Core Technologies used
 * React.js & Vite
-* tailwind css
+* tailwind , css
 * react-icon 
 
 #### best regards
