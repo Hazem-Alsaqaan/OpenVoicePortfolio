@@ -12,3 +12,7 @@ const Landing = () => {
     )
 }
 export default Landing;
+
+
+
+// https://www.freepik.com/free-vector/top-view-laptop-technology-background_4286112.htm#fromView=search&page=2&position=3&uuid=e119ca5c-9e6e-4b8a-ab8a-3f7361f3859d
