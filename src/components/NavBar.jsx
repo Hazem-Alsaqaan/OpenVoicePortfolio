@@ -5,7 +5,6 @@ import { FaBars } from "react-icons/fa6";
 
 const NavBar = ()=>{
     const [visibleNav, setVisibleNav] = useState(false)
-    let show = visibleNav  ? "block" : "hidden";
     return(
         <div className={`flex-1  justify-end items-center pl-10 max-xsm:flex max-xsm:justify-end `}>
             <FaBars className={`cursor-pointer text-white text-2xl hover:text-yellow-500 duration-200 xsm:hidden`} onClick={()=>setVisibleNav((prev)=>!prev)} />    
